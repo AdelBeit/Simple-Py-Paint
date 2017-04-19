@@ -1,3 +1,5 @@
+#Author: Adel Beitvashahi
+
 from tkinter import *
 import random
 
@@ -17,15 +19,14 @@ class Application(Frame):
     def create_widgets(self):
         self.master.title("Paint")
         self.pack(fill=BOTH, expand=1)
-        self.canvas = Canvas(self)
-        self.canvas.bind('<Motion>', self.draw)
-        self.canvas.bind('<ButtonPress-1>', self.penDown)
-        self.canvas.bind('<ButtonRelease-1>', self.penUp)
-        self.canvas.bind('<Double-Button-3>', self.clear)
-        self.canvas.bind('<ButtonPress-3>', self.eraserDown)
-        self.canvas.bind('<ButtonRelease-3>', self.eraserUp)
-        self.canvas.bind('<MouseWheel>', self.changeSize)
-        self.canvas.bind('<Double-Button-1>', lambda x : print("hi"))
+        self.canvas = Canvas(self)        
+        self.canvas.bind('<Motion>', self.draw) # draw on canvas
+        self.canvas.bind('<ButtonPress-1>', self.penDown) # place the pen
+        self.canvas.bind('<ButtonRelease-1>', self.penUp) # pick up the pen
+        self.canvas.bind('<Double-Button-3>', self.clear) # clear canvas
+        self.canvas.bind('<ButtonPress-3>', self.eraserDown) # place the eraser
+        self.canvas.bind('<ButtonRelease-3>', self.eraserUp) # pick up the eraser
+        self.canvas.bind('<MouseWheel>', self.changeSize) # change brush size
         self.canvas.pack(fill=BOTH, expand=1)
 
     def draw(self, event):
