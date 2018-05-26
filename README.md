@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Simple Paint [Python](./Simple Paint/)
-=======
 # Simple Paint [[Python](./Simple%20Paint/)]
->>>>>>> master
 
 Learned about python GUI (tkinter)
 
