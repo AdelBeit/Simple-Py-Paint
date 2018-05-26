@@ -1,4 +1,4 @@
-# Simple Paint [Python](./Simple Paint)
+# Simple Paint [Python](./sp/)
 
 Learned about python GUI (tkinter)
 
