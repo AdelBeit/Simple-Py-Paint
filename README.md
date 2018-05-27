@@ -1,4 +1,4 @@
-# Simple Paint [[Python](Simple%20Paint/)]
+# Simple Paint [[Python](https://github.com/AdelBeit/BORED-DOM/tree/gh-pages/Simple%20Paint)]
 
 Learned about python GUI (tkinter)
 
