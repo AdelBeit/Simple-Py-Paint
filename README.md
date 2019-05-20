@@ -1,4 +1,9 @@
-# Small-Projects
-My random smaller projects
+# Simple Paint [Python]
 
-Whenever I learn something new I make a little something to go along with it for learning reinforcement.
+Made this to learn more about python GUI (tkinter) library.
+
+Controls:
+  - Draw with left mouse button
+  - Erase with right mouse button
+  - Clear canvas by double clicking right mouse button
+  - Change brush size using the mouse wheel
